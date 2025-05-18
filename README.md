@@ -38,3 +38,23 @@ User unable to connect to the internet while working reotely. Local apps work fi
 
 ## Related Domain
 - Network+ Domain 5: Network Troubleshooting
+
+
+-----
+
+## Review Section
+---
+
+##  Domain 5 Knowledge Review
+
+As a follow-up to this lab, I completed a mini flashcard-style review to reinforce key troubleshooting concepts and tool usage.
+
+###  Key Takeaways:
+
+- `ipconfig /all` helps validate DHCP assignment, DNS, and gateway status
+- If `ping 8.8.8.8` works but `ping www.google.com` fails → DNS issue
+- `tracert` identifies at which hop connectivity issues or latency appear
+- Testing both IP and hostname helps isolate raw connectivity vs. name resolution issues
+- A structured approach using tools in sequence leads to faster, more accurate resolutions
+
+This reflection helped me solidify the “why” behind every tool I used — not just how to run them, but when they matter most in a real troubleshooting scenario.
